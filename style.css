@@ -319,6 +319,14 @@ form .btn2{
     font-weight: 300;
     margin-top: 20px;
 }
+.copyright a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    scroll-behavior: smooth;
+    
+}
+
 
 /*------------- css mediaquery ------------*/
 
