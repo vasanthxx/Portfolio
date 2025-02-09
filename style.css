@@ -379,6 +379,13 @@ nav .fas{
     .header-text h1{
         font-size: 30px;
     }
+    nav {
+        font-size: 16px;
+        text-align: center;
+        padding: 10px;
+        height: 75px;
+        
+    }
     nav .fas{
         display: block;
         font-size: 25px;
