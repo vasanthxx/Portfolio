@@ -12,11 +12,16 @@ body{
     color: #fff;
     padding: 20px;
 }
+
 #header{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(/image/img2.png);
     background-size: cover;
+}
+.header-text{
+    padding-top: 200px;
+
 }
 .title{
     font-size: 48px;
@@ -29,14 +34,29 @@ body{
 }
 .container{
     padding: 15x 10%;
+    
+}
+.active{
+    color: yellowgreen;
+
 }
 nav{
-    padding: 10px 20px;
-    padding-top: 30px;
+    background: #080808;
+    width: 100%;
+    height: 100px;
+    padding: 40px;
+    padding-bottom: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: fixed;
+    box-shadow: 0 5px 10px rgba(156, 243, 147, 0.3);
+    top: 0;
+    left: 0;
+    
+    z-index: 999;
+    
 }
 nav ul li{
     display: inline-block;
@@ -63,7 +83,7 @@ nav ul li a:hover::after{
     width: 100%;
 }
 .header-text{
-    margin-top: 13%;
+    
     font-size: 30px;
     padding-left: 30px;
     
@@ -312,12 +332,15 @@ form .btn2{
     cursor: pointer;
 }
 .copyright{
+    display: flex;
+    justify-content: space-evenly;
     width: 100%;
     text-align: center;
     padding: 25px 0;
     background: #262626;
     font-weight: 300;
     margin-top: 20px;
+    
 }
 .copyright a{
     text-decoration: none;
@@ -336,12 +359,23 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(/image/phone.png);
+        background-image: url(/image/media2.png);
+        background-size: cover;
     }
+    
     .header-text{
-        font-size:16px;
+        font-size:20px;
+        font-weight: 500;
+        
+    }
+    .header-text p {
         margin-top: 200px;
     }
+    .active{
+        color: black;
+    
+    }
+   
     .header-text h1{
         font-size: 30px;
     }
@@ -396,6 +430,11 @@ nav .fas{
     }
     .copyright{
         font-size: 14px;
+    }
+    .copyright {
+        display: grid;
+        gap: 10px;
+        
     }
     
 
