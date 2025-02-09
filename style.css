@@ -406,6 +406,15 @@ nav .fas{
         display: block;
         margin: 25px;
     }
+    .title ,h1 {
+        font-size: 30px;
+    }
+    .title span {
+        font-size: 30px;
+    }
+     .fas{
+        font-size: 30px;
+    }
     nav ul .fas{
         position: absolute;
         top: 25px;
