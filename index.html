@@ -29,7 +29,7 @@
                </nav>
                <div class="header-text">
                    <p>Frontend Developer</p>
-                   <h1>Hi, I'm <span style="color: yellowgreen;">Vasanth P</span><br>From Trichy</h1>
+                   <h1>Hi, I'm <span style="color: yellowgreen;" class="multiple-text">Vasanth P</span><br>From Trichy</h1>
                </div>
             </div>
            </div>
@@ -261,6 +261,18 @@
 
         };
     </script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+        const typed = new Typed('.multiple-text', {
+             strings: ['Vasanth P'],
+             typeSpeed:100,
+             backSpeed:100,
+             backDelay: 100,
+             loop: true
+        });
+
+ </script>
 
 </body>
 </html>
