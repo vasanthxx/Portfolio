@@ -585,6 +585,10 @@ nav .fas{
 
 
 @media (max-width: 480px) {
+
+    .new-one {
+        width: 100%;
+    }
     .sub-title {
         font-size: 24px;
     }
