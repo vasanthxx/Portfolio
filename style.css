@@ -588,13 +588,10 @@ nav .fas{
 
     .new-one {
         width: 100%;
+        padding: 35px;
     }
     .sub-title {
         font-size: 24px;
-    }
-
-    .new-one {
-        padding: 15px;
     }
 
     .new-one i {
