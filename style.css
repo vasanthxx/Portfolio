@@ -547,7 +547,65 @@ nav .fas{
     html{
         scroll-behavior: smooth;
     }
+
+@media (max-width: 1024px) {
+    .container-new {
+        max-width: 90%;
+    }
     
+    .services-list-new {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .new-one {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .sub-title {
+        font-size: 28px;
+    }
+
+    .new-one {
+        padding: 20px;
+    }
+
+    #new-button {
+        flex-direction: column;
+    }
+
+    #new-button a {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .sub-title {
+        font-size: 24px;
+    }
+
+    .new-one {
+        padding: 15px;
+    }
+
+    .new-one i {
+        font-size: 30px;
+    }
+
+    #new-button {
+        gap: 10px;
+    }
+
+    #new-button a {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
     
 
 
